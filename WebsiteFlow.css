@@ -1,8 +1,43 @@
 /*---------------Default--------------
 */
 html{
-	background: #FEFAEC;
+	background: #E0F7FA;
 }
+.sub-heading{ 
+	font-family: verdana, helvetica;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 45px;
+	padding:10px;
+	background:#165EA8;
+	color: #F7BC46;
+	text-shadow: 1px 1px black, 1px 1px black, 1px 1px black, 1px 1px black;
+	text-align: center;
+	border-bottom: solid #2994B2;
+	border-top: solid #2994B2;
+}
+.topic{ 
+	font-family: arial, serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 25px;
+	color: #10316B;
+}
+.sub-topic{ 
+	font-family: arial, serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 20px;
+	color: #165EA8;
+}
+.tips{
+	font-family: arial, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+	color: #F8823E;
+}
+
 /*--------------Menu/Navigation------------
 */
 
@@ -11,21 +46,22 @@ html{
 
 /*---------------Header--------
 */
-h1{
-	font-size: 55px;
-	text-align: center;
-
-}
 .main-heading{
-	background: #A9EEE6;
-	border-bottom: solid #625772;
-	border-top: solid #625772;
+	background: #3490C9;
+	border-bottom: solid #165EA8;
+	border-top: solid #165EA8;
 	padding-bottom: 20px;
 	padding-top: 20px
 	padding-left:100%
 	padding-right:100%;
+	font-size: 55px;
+	text-align: left;
+	color: #10316B;
 }
-/*-------------Body------------------
-*/
-/*-------------Footer----------------
-*/
+/*-------------Body------------------*/
+/*-----------PLAN-------------------*/
+/*-----------DESIGN------------------*/
+/*-----------DEVELOP-----------------*/
+/*-----------PUBLISH-----------------*/
+/*-----------MAINTAIN-----------------*/
+/*-----------Footer-------------------*/
