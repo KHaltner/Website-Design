@@ -1,7 +1,7 @@
 /*---------------Default--------------
 */
 html{
-	background: #E0F7FA;
+	background: #F8F5E4;
 }
 .sub-heading{ 
 	font-family: verdana, helvetica;
@@ -9,26 +9,26 @@ html{
 	font-style: normal;
 	font-size: 45px;
 	padding:10px;
-	background:#165EA8;
-	color: #F7BC46;
+	background:#0E3047;
+	color: #F97300;
 	text-shadow: 1px 1px black, 1px 1px black, 1px 1px black, 1px 1px black;
 	text-align: center;
-	border-bottom: solid #2994B2;
-	border-top: solid #2994B2;
+	border-bottom: solid #10828C;
+	border-top: solid #10828C;
 }
 .topic{ 
 	font-family: arial, serif;
 	font-weight: bold;
 	font-style: normal;
 	font-size: 25px;
-	color: #10316B;
+	color: #0E3047;
 }
 .sub-topic{ 
 	font-family: arial, serif;
 	font-weight: normal;
 	font-style: italic;
 	font-size: 20px;
-	color: #165EA8;
+	color: #10828C;
 }
 .tips{
 	font-family: arial, serif;
@@ -47,16 +47,16 @@ html{
 /*---------------Header--------
 */
 .main-heading{
-	background: #3490C9;
-	border-bottom: solid #165EA8;
-	border-top: solid #165EA8;
+	background: #10828C;
+	border-bottom: solid #0E3047;
+	border-top: solid #0E3047;
 	padding-bottom: 20px;
 	padding-top: 20px
 	padding-left:100%
 	padding-right:100%;
 	font-size: 55px;
 	text-align: left;
-	color: #10316B;
+	color: #0E3047;
 }
 /*-------------Body------------------*/
 /*-----------PLAN-------------------*/
