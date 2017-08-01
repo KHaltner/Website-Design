@@ -1,7 +1,7 @@
 /*---------------Default--------------
 */
 html{
-	background: #F6F6F6;
+	background: #F8F5E4;
 }
 .sub-heading{ 
 	font-family: verdana, helvetica;
@@ -9,43 +9,62 @@ html{
 	font-style: normal;
 	font-size: 45px;
 	padding:10px;
-	background:#1684A7;
-	color: #F6EC72;
+	background:#0E3047;
+	color: #F97300;
 	text-shadow: 1px 1px black, 1px 1px black, 1px 1px black, 1px 1px black;
 	text-align: center;
-	border-bottom: solid #F6EC72;
-	border-top: solid #F6EC72;
+	border-bottom: solid #10828C;
+	border-top: solid #10828C;
+	margin-top:40px;
 }
 .topic{ 
 	font-family: arial, serif;
 	font-weight: bold;
 	font-style: normal;
-	font-size: 25px;
-	color: #09A599;
+	font-size: 30px;
+	color: #0E3047;
 }
 .sub-topic{ 
 	font-family: arial, serif;
-	font-weight: normal;
-	font-style: italic;
-	font-size: 20px;
-	color: #1684A7;
+	font-weight: bolder;
+	font-style: oblique;
+	font-size: 22px;
+	color: #10828C;
+	border-bottom: dotted;
+	border-width: 1px
 }
 .tips{
 	font-family: arial, serif;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 15px;
-	color: #F6EC72;
-	padding:1px;
-	background:#1684A7;
-	color: #F6EC72;
+	font-size: 19px;
+	color: #F8823E;
 	text-shadow: 1px 1px black, 1px 1px black, 1px 1px black, 1px 1px black;
-	text-align: center;
-	border-bottom: solid #09A599;
-	border-top: solid #09A599;
-	margin: 15px 50px 15px 100px;
+	text-align: left;
+	border-bottom: solid #0E3047 5px;
+	border-top: solid #0E3047 5px;
+	border-left: solid #0E3047 5px;
+	border-right: solid #0E3047 5px;
+	background: #10828C;
+	margin: 25px 50px 0px 1px;
 	position: relative;
 	right: 10px;
+	padding: 1px 35px 1px 15px;
+}
+.tips-details{
+	font-family: arial, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+	color: #0E3047;
+	text-shadow: 1px 1px #F8823E, 0px 0px black, 0px 0px black, 0px 0px black;
+	background: #10828C;
+	margin: 1px 1px 1px 1px;
+	position: relative;
+	bottom: 35px;
+	left:35px;
+	right:40px;
+	padding: 0px;
 }
 
 /*--------------Menu/Navigation------------
@@ -53,24 +72,67 @@ html{
 
 
 
-
 /*---------------Header--------
 */
 .main-heading{
-	background: #F6F6F6;
-	border-bottom: solid #09A599;
-	border-top: solid #09A599;
+	background: #10828C;
+	border-bottom: solid #0E3047;
+	border-top: solid #0E3047;
 	padding-bottom: 20px;
-	padding-top: 20px
-	padding-left:100%
-	padding-right:100%;
-	font-size: 55px;
+	padding-top: 20px;
+	font-size: 65px;
 	text-align: left;
-	color: #1684A7;
-	position: static; 
+	color: #0E3047;
 }
 /*-------------Body------------------*/
+p1{ font-family: tahoma, verdana;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	color: #203562;
+	margin: 1px;
+}
+p2{font-family: arial black, verdana;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	color: #0E3047;
+	
+}
+.consider{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-top:25px;
+	border: 200px; 
+	font-style: italic;
+	font-size: 16px;
+	font-family: arial, verdana;
+}
+.terms{
+	padding-bottom: 2px;
+	padding-top: 10px;
+	margin-top:10px;
+	border: 20px; 
+	font-style: italic;
+	font-size: 17px;
+	font-weight: bolder;
+	font-family: arial, verdana;
+	color: #F97300;
+}
+.definition{
+	padding-bottom: 20px;
+	padding-top: 1px;
+	margin-top:1px;
+	border: 10px; 
+	font-style: italic;
+	font-size: 18px;
+	font-family: arial, verdana;
+	margin-bottom: 25px;
+}
+
 /*-----------PLAN-------------------*/
+
+
 /*-----------DESIGN------------------*/
 /*-----------DEVELOP-----------------*/
 /*-----------PUBLISH-----------------*/
